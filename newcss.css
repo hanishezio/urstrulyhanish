@@ -1,0 +1,178 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 08-Aug-2017, 09:42:20
+    Author     : HANISH SHK
+*/
+body{
+    background-color: gainsboro ;
+    color: #000305;
+    font-size: 87.5%;
+    font-family: Arial, 'Lucida Sans Unicode';
+    line-height: 1.5;
+    text-align: left;
+    
+}
+
+.body{
+    margin: 0 auto;
+    width: 70%;
+    clear: both;
+}
+a {
+    text-decoration: none;
+}
+a:link,a:visited {
+    color: #ff9966;
+    
+}
+a:hover,a:active{
+     background-color: #ff9966;
+     color: white;
+}
+
+.mainhead img{
+    width: 30%;
+    height: auto;
+    margin: 2% 0;
+    
+}
+.mainhead nav{
+    background-color: #666;
+    height: 40px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.mainhead nav ul{
+    list-style: none;
+    margin: 0 auto;
+    
+}
+.mainhead nav ul li{
+    float: left;
+    display: inline;
+}
+.mainhead nav a:link, .mainhead nav a:visited{
+    color: #FFF;
+    display: inline-block;
+    padding: 10px 25px;
+    height: 20px;
+    
+    
+}
+.mainhead nav a:hover, .mainhead nav a:active
+    .mainhead nav .active a:link, .mainhead nav .active a:visited{
+        background-color: #ff9966;
+    }
+    
+    .mainhead nav ul li a{
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    }    
+    
+    .maincontent{
+        line-height: 25px;
+        border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    
+    }
+    
+    .content {
+        width: 70%;
+        float: left;
+    } 
+    .topcontent {
+        background-color: white;
+        border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 3% 5%;
+    margin-top: 2%;
+    }
+   .bottomcontent {
+        background-color: white;
+        border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 3% 5%;
+    margin-top: 2%;
+    }
+    .top-sidebars{
+        width: 21%;
+        float: left;
+        background-color: white;
+        border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+        margin-left: 3%;
+        margin-bottom: 2px;
+        margin-top: 2%;
+        padding: 2% 3%;
+        
+    }
+    .postinfo{
+        font-style: italic;
+        color: #999;
+        font-size: 85%;
+        
+    }
+    .bottom-sidebars{
+        width: 21%;
+        float: left;
+        background-color: white;
+        border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-left: 3%;
+    margin-bottom: 2px;
+    padding: 2% 3%;
+        
+    }
+    .mainfooter{
+        width: 100%;
+        height: 40px;
+        float: left;
+        border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    background-color: #666;
+    margin: 2% 0;
+    }
+    .mainfooter p{
+        width: 92%;
+        margin: 1% auto;
+        color: #FFF;
+        
+        
+    }
+    @media only screen and(min-width: 150px) and (max-width: 600px){
+        .body{
+    width: 90%;
+    
+    
+}
+
+.mainhead img{
+    width: 100%;
+    
+    
+}
+    }
+
+
+
+
+
+
+
+
+
+
+
+
